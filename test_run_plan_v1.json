@@ -1,0 +1,354 @@
+{
+  "status": "frozen_before_test_inference",
+  "method_settings_sha256": "5348a7aa4e4eec8e441968e6cb7b1c8db3e5b5e1b012ab5aac796ed8bbe73144",
+  "attack_fixtures_sha256": "ff6b20b189e9948339692cbfef619fd16fc3f0d2c718b8108cb3f98cc9c7268b",
+  "test_questions_sha256": "ed0f1a8d39bb2e36935e7d59271f5a49e725492f87e10d6d6d078c1c4e68d2d3",
+  "conditions": [
+    {
+      "condition_id": "clean",
+      "base_fixture_ids": [],
+      "copies_per_fixture": 0,
+      "added_passages": 0,
+      "expected_total_passages": 39,
+      "expected_poison_passage_fraction": 0.0
+    },
+    {
+      "condition_id": "single_01_copies1",
+      "base_fixture_ids": [
+        "heldout-added-001"
+      ],
+      "copies_per_fixture": 1,
+      "added_passages": 1,
+      "expected_total_passages": 40,
+      "expected_poison_passage_fraction": 0.025
+    },
+    {
+      "condition_id": "single_01_copies2",
+      "base_fixture_ids": [
+        "heldout-added-001"
+      ],
+      "copies_per_fixture": 2,
+      "added_passages": 2,
+      "expected_total_passages": 41,
+      "expected_poison_passage_fraction": 0.04878048780487805
+    },
+    {
+      "condition_id": "single_01_copies4",
+      "base_fixture_ids": [
+        "heldout-added-001"
+      ],
+      "copies_per_fixture": 4,
+      "added_passages": 4,
+      "expected_total_passages": 43,
+      "expected_poison_passage_fraction": 0.09302325581395349
+    },
+    {
+      "condition_id": "single_02_copies1",
+      "base_fixture_ids": [
+        "heldout-added-002"
+      ],
+      "copies_per_fixture": 1,
+      "added_passages": 1,
+      "expected_total_passages": 40,
+      "expected_poison_passage_fraction": 0.025
+    },
+    {
+      "condition_id": "single_02_copies2",
+      "base_fixture_ids": [
+        "heldout-added-002"
+      ],
+      "copies_per_fixture": 2,
+      "added_passages": 2,
+      "expected_total_passages": 41,
+      "expected_poison_passage_fraction": 0.04878048780487805
+    },
+    {
+      "condition_id": "single_02_copies4",
+      "base_fixture_ids": [
+        "heldout-added-002"
+      ],
+      "copies_per_fixture": 4,
+      "added_passages": 4,
+      "expected_total_passages": 43,
+      "expected_poison_passage_fraction": 0.09302325581395349
+    },
+    {
+      "condition_id": "single_03_copies1",
+      "base_fixture_ids": [
+        "heldout-added-003"
+      ],
+      "copies_per_fixture": 1,
+      "added_passages": 1,
+      "expected_total_passages": 40,
+      "expected_poison_passage_fraction": 0.025
+    },
+    {
+      "condition_id": "single_03_copies2",
+      "base_fixture_ids": [
+        "heldout-added-003"
+      ],
+      "copies_per_fixture": 2,
+      "added_passages": 2,
+      "expected_total_passages": 41,
+      "expected_poison_passage_fraction": 0.04878048780487805
+    },
+    {
+      "condition_id": "single_03_copies4",
+      "base_fixture_ids": [
+        "heldout-added-003"
+      ],
+      "copies_per_fixture": 4,
+      "added_passages": 4,
+      "expected_total_passages": 43,
+      "expected_poison_passage_fraction": 0.09302325581395349
+    },
+    {
+      "condition_id": "single_04_copies1",
+      "base_fixture_ids": [
+        "heldout-added-004"
+      ],
+      "copies_per_fixture": 1,
+      "added_passages": 1,
+      "expected_total_passages": 40,
+      "expected_poison_passage_fraction": 0.025
+    },
+    {
+      "condition_id": "single_04_copies2",
+      "base_fixture_ids": [
+        "heldout-added-004"
+      ],
+      "copies_per_fixture": 2,
+      "added_passages": 2,
+      "expected_total_passages": 41,
+      "expected_poison_passage_fraction": 0.04878048780487805
+    },
+    {
+      "condition_id": "single_04_copies4",
+      "base_fixture_ids": [
+        "heldout-added-004"
+      ],
+      "copies_per_fixture": 4,
+      "added_passages": 4,
+      "expected_total_passages": 43,
+      "expected_poison_passage_fraction": 0.09302325581395349
+    },
+    {
+      "condition_id": "single_05_copies1",
+      "base_fixture_ids": [
+        "heldout-added-005"
+      ],
+      "copies_per_fixture": 1,
+      "added_passages": 1,
+      "expected_total_passages": 40,
+      "expected_poison_passage_fraction": 0.025
+    },
+    {
+      "condition_id": "single_05_copies2",
+      "base_fixture_ids": [
+        "heldout-added-005"
+      ],
+      "copies_per_fixture": 2,
+      "added_passages": 2,
+      "expected_total_passages": 41,
+      "expected_poison_passage_fraction": 0.04878048780487805
+    },
+    {
+      "condition_id": "single_05_copies4",
+      "base_fixture_ids": [
+        "heldout-added-005"
+      ],
+      "copies_per_fixture": 4,
+      "added_passages": 4,
+      "expected_total_passages": 43,
+      "expected_poison_passage_fraction": 0.09302325581395349
+    },
+    {
+      "condition_id": "single_06_copies1",
+      "base_fixture_ids": [
+        "heldout-added-006"
+      ],
+      "copies_per_fixture": 1,
+      "added_passages": 1,
+      "expected_total_passages": 40,
+      "expected_poison_passage_fraction": 0.025
+    },
+    {
+      "condition_id": "single_06_copies2",
+      "base_fixture_ids": [
+        "heldout-added-006"
+      ],
+      "copies_per_fixture": 2,
+      "added_passages": 2,
+      "expected_total_passages": 41,
+      "expected_poison_passage_fraction": 0.04878048780487805
+    },
+    {
+      "condition_id": "single_06_copies4",
+      "base_fixture_ids": [
+        "heldout-added-006"
+      ],
+      "copies_per_fixture": 4,
+      "added_passages": 4,
+      "expected_total_passages": 43,
+      "expected_poison_passage_fraction": 0.09302325581395349
+    },
+    {
+      "condition_id": "single_07_copies1",
+      "base_fixture_ids": [
+        "heldout-added-007"
+      ],
+      "copies_per_fixture": 1,
+      "added_passages": 1,
+      "expected_total_passages": 40,
+      "expected_poison_passage_fraction": 0.025
+    },
+    {
+      "condition_id": "single_07_copies2",
+      "base_fixture_ids": [
+        "heldout-added-007"
+      ],
+      "copies_per_fixture": 2,
+      "added_passages": 2,
+      "expected_total_passages": 41,
+      "expected_poison_passage_fraction": 0.04878048780487805
+    },
+    {
+      "condition_id": "single_07_copies4",
+      "base_fixture_ids": [
+        "heldout-added-007"
+      ],
+      "copies_per_fixture": 4,
+      "added_passages": 4,
+      "expected_total_passages": 43,
+      "expected_poison_passage_fraction": 0.09302325581395349
+    },
+    {
+      "condition_id": "single_08_copies1",
+      "base_fixture_ids": [
+        "heldout-added-008"
+      ],
+      "copies_per_fixture": 1,
+      "added_passages": 1,
+      "expected_total_passages": 40,
+      "expected_poison_passage_fraction": 0.025
+    },
+    {
+      "condition_id": "single_08_copies2",
+      "base_fixture_ids": [
+        "heldout-added-008"
+      ],
+      "copies_per_fixture": 2,
+      "added_passages": 2,
+      "expected_total_passages": 41,
+      "expected_poison_passage_fraction": 0.04878048780487805
+    },
+    {
+      "condition_id": "single_08_copies4",
+      "base_fixture_ids": [
+        "heldout-added-008"
+      ],
+      "copies_per_fixture": 4,
+      "added_passages": 4,
+      "expected_total_passages": 43,
+      "expected_poison_passage_fraction": 0.09302325581395349
+    },
+    {
+      "condition_id": "all8_copies1",
+      "base_fixture_ids": [
+        "heldout-added-001",
+        "heldout-added-002",
+        "heldout-added-003",
+        "heldout-added-004",
+        "heldout-added-005",
+        "heldout-added-006",
+        "heldout-added-007",
+        "heldout-added-008"
+      ],
+      "copies_per_fixture": 1,
+      "added_passages": 8,
+      "expected_total_passages": 47,
+      "expected_poison_passage_fraction": 0.1702127659574468
+    },
+    {
+      "condition_id": "all8_copies2",
+      "base_fixture_ids": [
+        "heldout-added-001",
+        "heldout-added-002",
+        "heldout-added-003",
+        "heldout-added-004",
+        "heldout-added-005",
+        "heldout-added-006",
+        "heldout-added-007",
+        "heldout-added-008"
+      ],
+      "copies_per_fixture": 2,
+      "added_passages": 16,
+      "expected_total_passages": 55,
+      "expected_poison_passage_fraction": 0.2909090909090909
+    }
+  ],
+  "construction": {
+    "clean_passages": 39,
+    "preserve_legitimate_documents": true,
+    "copies": "Identical text; distinct IDs; unchanged URL and family.",
+    "attack_source_families": 1,
+    "provenance": "Use the frozen provenance policy."
+  },
+  "detector_and_retrieval_evaluation": {
+    "questions": "All 32 frozen test questions.",
+    "methods": [
+      "undefended",
+      "exact_deduplication",
+      "provenance_only",
+      "constant_prior",
+      "full_detector",
+      "passage_average",
+      "dedup_full_detector",
+      "dedup_passage_average"
+    ],
+    "primary_comparison_conditions": [
+      "clean",
+      "all8_copies2"
+    ],
+    "other_conditions": "Report as correlated robustness conditions."
+  },
+  "generation_evaluation": {
+    "conditions": [
+      "clean",
+      "all8_copies2"
+    ],
+    "answerable_question_ids": [
+      "claim-02-q1",
+      "claim-03-q1",
+      "claim-05-q1",
+      "claim-06-q1",
+      "claim-08-q1",
+      "claim-09-q1",
+      "claim-11-q1",
+      "claim-12-q1"
+    ],
+    "unanswerable_selection": "All test questions with no sufficient_evidence_options.",
+    "expected_questions": 16,
+    "methods": [
+      "undefended",
+      "exact_deduplication",
+      "dedup_full_detector",
+      "dedup_passage_average"
+    ],
+    "expected_method_condition_question_uses": 128,
+    "execution": "Measure unique prompts first; generate in bounded resumable batches using the frozen generator settings.",
+    "empty_context": "Return the frozen insufficient-evidence response without calling the generator; record this as a policy abstention.",
+    "scope_limit": "Generation results cover the predefined subset, not all 32 test questions."
+  },
+  "reporting": [
+    "Separate clean performance from poisoned conditions.",
+    "Report passage fractions, exposure, detection, false positives, and runtime.",
+    "Report sufficient-reference coverage and empty contexts.",
+    "Separate factual accuracy, evidence support, and citation compliance.",
+    "Measure answer flips only against matched clean-correct answers.",
+    "Report appropriate abstention separately.",
+    "Treat copies, paraphrases, and conditions as correlated.",
+    "Disclose AI assistance in fixture review and answer grading.",
+    "Do not tune methods using test outputs."
+  ]
+}

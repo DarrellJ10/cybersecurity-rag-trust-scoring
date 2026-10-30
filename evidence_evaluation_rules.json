@@ -1,0 +1,6 @@
+{
+  "sufficient_reference_evidence_retrieved": "True if every passage in at least one sufficient evidence option is present in the retrieved context.",
+  "partial_support": "Report separately. Partial passages do not satisfy a sufficient evidence option.",
+  "limitation": "Reference options are reviewed examples, not an exhaustive list of all possible supporting passage combinations.",
+  "input_restriction": "Reference mappings and grading metadata are evaluation-only. Do not supply them to the answer model or defense."
+}

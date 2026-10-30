@@ -1,0 +1,146 @@
+{
+  "schema": "repository-snapshot-v1",
+  "notes": [
+    "Original notebook source/output bytes preserved; filenames normalized.",
+    "Only the verification notebook, verifier, and repository documentation are new.",
+    "No research models run during preparation.",
+    "Third-party snapshots and synthetic fixtures are documented in SOURCE_PROVENANCE.md."
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 149,
+      "sha256": "37765858ec007aa613830a0dffd42ed6240171dd32ddbbe2325d5074c4fad26c"
+    },
+    {
+      "path": "01_Clean_Baseline_Cybersecurity_RAG.ipynb",
+      "bytes": 63892,
+      "sha256": "73641e827c142c7586472a84e6e18cd91974999393df9c0ad6cce126d184ace6"
+    },
+    {
+      "path": "02_Retrieval_Poisoning_Experiments.ipynb",
+      "bytes": 209250,
+      "sha256": "84ca54fe5dc32f03cef31e428e4d5f9d27eb1bc4c8262ae1f6e673bf193bd179"
+    },
+    {
+      "path": "03_Source_Diversity_Trust_Scoring.ipynb",
+      "bytes": 210912,
+      "sha256": "28cde1f477af3e151d5f552bb562f1c6455f823ea9ebbaf900b33a581465722b"
+    },
+    {
+      "path": "04_Expanded_Research_Evaluation.ipynb",
+      "bytes": 1339971,
+      "sha256": "ac7ef22b895d7f787d94941ca7e35ce559f84919b145b7abc6e9b8eebc76e505"
+    },
+    {
+      "path": "05_Trust_Scoring_Detector.ipynb",
+      "bytes": 739916,
+      "sha256": "fa377a7aeaa4c1f58afa3443d0fdf34c7b5c2435986b0166bee94312305734f4"
+    },
+    {
+      "path": "06_Verify_Saved_Results.ipynb",
+      "bytes": 7581,
+      "sha256": "c132e870e540e0f9312d15a4e00aae0ed4d5c6854394861f1c919b67e38d5d4c"
+    },
+    {
+      "path": "07_Historical_Heldout_Recovery.ipynb",
+      "bytes": 106927,
+      "sha256": "b08bf5935eeb87563dcb34dab3cda05e8f04b697a7a260442e60ef84af052f82"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6427,
+      "sha256": "6f8e8945e7b5d70a7563638a8a4fe563c542e5fa1ac5b9f3703b17edfb5664a6"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 3536,
+      "sha256": "f400698113be1eaf433ec985a38e41a64b4bc01eb19819d0c3560fe6094a2da5"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.md",
+      "bytes": 1474,
+      "sha256": "13a587a3adebd21877b29962da3fe5293f972a03e457a8e2e310870cb99ee037"
+    },
+    {
+      "path": "claims.json",
+      "bytes": 9605,
+      "sha256": "d05e17abe99ac2ea36a699064dd19e3e89c3b9eacf652ba3134ef021a2b5b822"
+    },
+    {
+      "path": "corpus.json",
+      "bytes": 176513,
+      "sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0"
+    },
+    {
+      "path": "development_questions.json",
+      "bytes": 14059,
+      "sha256": "723330e086cc4619c543852b4b6ee0d3225e2429cac19efe5581e9dff1d0b2d4"
+    },
+    {
+      "path": "evidence_evaluation_rules.json",
+      "bytes": 527,
+      "sha256": "9e5b01a439b9ba4b77d6e642328b7383d2e840f0c8482c448a8249dfde7c46fb"
+    },
+    {
+      "path": "grading_rules.json",
+      "bytes": 1304,
+      "sha256": "f9fddb41b0ce7236f9c3c5be5745d2b4171060455fe56e825c0a5dd1ece21b3c"
+    },
+    {
+      "path": "heldout_ai_review_results_v1.json",
+      "bytes": 235498,
+      "sha256": "613c2002e40118f9b8f1629f4f780854525ce33a09fa842a9fc3007533bf6ea7"
+    },
+    {
+      "path": "heldout_results_summary.md",
+      "bytes": 3413,
+      "sha256": "7297762cf9dd705ca533281bae7629008d393e6930a668a540116120652816ad"
+    },
+    {
+      "path": "heldout_review_results.zip",
+      "bytes": 23641,
+      "sha256": "161c2769fcc86d0953f9614e331029042722ceda2abf920200dbd0f8b5dde2e3"
+    },
+    {
+      "path": "method_settings_v1.json",
+      "bytes": 8458,
+      "sha256": "5348a7aa4e4eec8e441968e6cb7b1c8db3e5b5e1b012ab5aac796ed8bbe73144"
+    },
+    {
+      "path": "notebook_provenance.json",
+      "bytes": 1888,
+      "sha256": "25f908fd0cafa8444f51d54c3fbf2a7ab391bdd003cfb3923767cd7bccc82cca"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 309,
+      "sha256": "cb458d6731e18e3b689de76e6dfdd5d478160ca088cb2e8967b614e6e50eb223"
+    },
+    {
+      "path": "test_questions.json",
+      "bytes": 28336,
+      "sha256": "ed0f1a8d39bb2e36935e7d59271f5a49e725492f87e10d6d6d078c1c4e68d2d3"
+    },
+    {
+      "path": "test_run_plan_v1.json",
+      "bytes": 10386,
+      "sha256": "71cb213b0f603e7791b8ac81002746fe015d9f6ba60954dc95030af9fc054b33"
+    },
+    {
+      "path": "trust_detector_backup_20261026T180455Z.zip",
+      "bytes": 12064706,
+      "sha256": "d1cc5419fba948c84663e7d02a1bf0d26a9587af5b901ff3b79940e6bf67dfd8"
+    },
+    {
+      "path": "trust_detector_backup_20261027T030637Z.zip",
+      "bytes": 16824904,
+      "sha256": "599dc41687907dade3a6e0a62ba4c044be3d51697bf5411a8f9b80cfbe145664"
+    },
+    {
+      "path": "verify_results.py",
+      "bytes": 8564,
+      "sha256": "3d75cabc28ffe6330a5011f7ab84ecbb102d44a498dc0cb659110aa96e29d144"
+    }
+  ]
+}

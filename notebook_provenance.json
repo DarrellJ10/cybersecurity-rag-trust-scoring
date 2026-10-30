@@ -1,0 +1,50 @@
+[
+  {
+    "repository_file": "01_Clean_Baseline_Cybersecurity_RAG.ipynb",
+    "original_filename": "01_Clean_Baseline_Cybersecurity_RAG_ipynb_.ipynb",
+    "source_sha256": "73641e827c142c7586472a84e6e18cd91974999393df9c0ad6cce126d184ace6",
+    "cell_count": 18,
+    "cells_with_outputs": 17,
+    "historical_error_outputs": 0
+  },
+  {
+    "repository_file": "02_Retrieval_Poisoning_Experiments.ipynb",
+    "original_filename": "02_Retrieval_Poisoning_Experiments.ipynb",
+    "source_sha256": "84ca54fe5dc32f03cef31e428e4d5f9d27eb1bc4c8262ae1f6e673bf193bd179",
+    "cell_count": 10,
+    "cells_with_outputs": 10,
+    "historical_error_outputs": 0
+  },
+  {
+    "repository_file": "03_Source_Diversity_Trust_Scoring.ipynb",
+    "original_filename": "03_Source_Diversity_Trust_Scoring.ipynb",
+    "source_sha256": "28cde1f477af3e151d5f552bb562f1c6455f823ea9ebbaf900b33a581465722b",
+    "cell_count": 8,
+    "cells_with_outputs": 8,
+    "historical_error_outputs": 0
+  },
+  {
+    "repository_file": "04_Expanded_Research_Evaluation.ipynb",
+    "original_filename": "04_Expanded_Research_Evaluation-4.ipynb",
+    "source_sha256": "ac7ef22b895d7f787d94941ca7e35ce559f84919b145b7abc6e9b8eebc76e505",
+    "cell_count": 46,
+    "cells_with_outputs": 44,
+    "historical_error_outputs": 1
+  },
+  {
+    "repository_file": "05_Trust_Scoring_Detector.ipynb",
+    "original_filename": "05_Trust_Scoring_Detector-2.ipynb",
+    "source_sha256": "fa377a7aeaa4c1f58afa3443d0fdf34c7b5c2435986b0166bee94312305734f4",
+    "cell_count": 56,
+    "cells_with_outputs": 54,
+    "historical_error_outputs": 1
+  },
+  {
+    "repository_file": "07_Historical_Heldout_Recovery.ipynb",
+    "original_filename": "05_Heldout_Recovery.ipynb",
+    "source_sha256": "b08bf5935eeb87563dcb34dab3cda05e8f04b697a7a260442e60ef84af052f82",
+    "cell_count": 19,
+    "cells_with_outputs": 0,
+    "historical_error_outputs": 0
+  }
+]

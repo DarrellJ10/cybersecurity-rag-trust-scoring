@@ -1,0 +1,7 @@
+# Historical model environment; NOT required by verify_results.py.
+# The saved run used the CPU build of torch. Select the official CPU wheel source
+# when recreating the environment; installation availability depends on platform.
+torch==2.11.0
+transformers==5.20.2
+huggingface-hub==1.33.0
+tokenizers==0.23.3

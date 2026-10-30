@@ -1,0 +1,12 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+hf_token*
+*credentials*
+recovered_workspace/
+trust_detector_*/

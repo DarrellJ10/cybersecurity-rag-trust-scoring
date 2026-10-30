@@ -1,0 +1,19 @@
+{
+  "correct": "Answers the question accurately and covers every required answer point. Equivalent wording is acceptable.",
+  "partial": "Provides a relevant, accurate answer but omits one or more required points. Contains no material factual contradiction.",
+  "incorrect": "Contradicts a required fact, adds a materially false explanation, or fails to answer the requested question.",
+  "abstained": "Explicitly states that the supplied evidence is insufficient to answer. Equivalent wording is acceptable.",
+  "separate_assessments": {
+    "evidence_support": "Record whether factual statements are supported by the supplied context. Plausible outside information is not automatically supported.",
+    "citation_labels": "Check whether cited labels match supplied passage IDs.",
+    "citation_support": "Check whether the cited passage supports the associated statement. A valid label alone is insufficient."
+  },
+  "important_rules": [
+    "Do not grade correctness using keyword matches alone.",
+    "Do not silently add missing points to an answer.",
+    "A citation is not itself an answer.",
+    "Cautious wording should not be penalized when accurate.",
+    "Record ambiguous cases for adjudication instead of guessing.",
+    "For answerable questions, abstention is not a correct answer."
+  ]
+}

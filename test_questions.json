@@ -1,0 +1,745 @@
+[
+  {
+    "question_id": "claim-02-q1",
+    "claim_id": "claim-02",
+    "concept_group": "password_tools",
+    "split": "test",
+    "question": "How do password managers help users create and remember passwords?",
+    "answerable": true,
+    "reference_statement": "Password managers generate and securely store passwords.",
+    "required_answer_points": [
+      "Password managers can generate passwords.",
+      "They store passwords so users need not memorize each one."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-009"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-009"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-02-q2",
+    "claim_id": "claim-02",
+    "concept_group": "password_tools",
+    "split": "test",
+    "question": "What do password managers do when generating and storing account passwords?",
+    "answerable": true,
+    "reference_statement": "Password managers generate and securely store passwords.",
+    "required_answer_points": [
+      "Password managers can generate passwords.",
+      "They store passwords so users need not memorize each one."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-009"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-009"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-02-q3",
+    "claim_id": "claim-02",
+    "concept_group": "password_tools",
+    "split": "test",
+    "question": "Explain how a password manager reduces the need to invent and memorize individual passwords.",
+    "answerable": true,
+    "reference_statement": "Password managers generate and securely store passwords.",
+    "required_answer_points": [
+      "Password managers can generate passwords.",
+      "They store passwords so users need not memorize each one."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-009"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-009"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-03-q1",
+    "claim_id": "claim-03",
+    "concept_group": "password_tools",
+    "split": "test",
+    "question": "How do passkeys use device-held keys, and how do they differ from passwords in phishing resistance?",
+    "answerable": true,
+    "reference_statement": "Passkeys use a private digital key and resist phishing.",
+    "required_answer_points": [
+      "A private digital key is held on a device.",
+      "Passkeys resist phishing unlike ordinary passwords."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-008"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-008"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-03-q2",
+    "claim_id": "claim-03",
+    "concept_group": "password_tools",
+    "split": "test",
+    "question": "Explain what a passkey stores on a device and its protection against phishing.",
+    "answerable": true,
+    "reference_statement": "Passkeys use a private digital key and resist phishing.",
+    "required_answer_points": [
+      "A private digital key is held on a device.",
+      "Passkeys resist phishing unlike ordinary passwords."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-008"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-008"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-03-q3",
+    "claim_id": "claim-03",
+    "concept_group": "password_tools",
+    "split": "test",
+    "question": "What role does a private digital key play in passkeys, and are passkeys susceptible to phishing like ordinary passwords?",
+    "answerable": true,
+    "reference_statement": "Passkeys use a private digital key and resist phishing.",
+    "required_answer_points": [
+      "A private digital key is held on a device.",
+      "Passkeys resist phishing unlike ordinary passwords."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-008"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-008"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-05-q1",
+    "claim_id": "claim-05",
+    "concept_group": "software_updates",
+    "split": "test",
+    "question": "What security problem do software patches address, and why does installing them matter?",
+    "answerable": true,
+    "reference_statement": "Security patches address known software vulnerabilities.",
+    "required_answer_points": [
+      "Patches fix known flaws or security holes.",
+      "Installing them reduces exposure to exploitation."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-015",
+      "reviewed-016",
+      "supplement-005"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-015",
+        "reviewed-016"
+      ],
+      [
+        "supplement-005"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-05-q2",
+    "claim_id": "claim-05",
+    "concept_group": "software_updates",
+    "split": "test",
+    "question": "Explain how patches affect known software flaws and the risk of exploitation.",
+    "answerable": true,
+    "reference_statement": "Security patches address known software vulnerabilities.",
+    "required_answer_points": [
+      "Patches fix known flaws or security holes.",
+      "Installing them reduces exposure to exploitation."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-015",
+      "reviewed-016",
+      "supplement-005"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-015",
+        "reviewed-016"
+      ],
+      [
+        "supplement-005"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-05-q3",
+    "claim_id": "claim-05",
+    "concept_group": "software_updates",
+    "split": "test",
+    "question": "Why should software patches be installed to protect against known vulnerabilities?",
+    "answerable": true,
+    "reference_statement": "Security patches address known software vulnerabilities.",
+    "required_answer_points": [
+      "Patches fix known flaws or security holes.",
+      "Installing them reduces exposure to exploitation."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-015",
+      "reviewed-016",
+      "supplement-005"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-015",
+        "reviewed-016"
+      ],
+      [
+        "supplement-005"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-06-q1",
+    "claim_id": "claim-06",
+    "concept_group": "software_updates",
+    "split": "test",
+    "question": "Can automatic updates fail to install? Give at least two conditions or actions that installation may require.",
+    "answerable": true,
+    "reference_statement": "Automatic updates can require conditions or user action.",
+    "required_answer_points": [
+      "Automatic updating does not guarantee installation.",
+      "Conditions can include power, Wi-Fi, storage, or a restart."
+    ],
+    "completion_clarification": "State that automatic updates may not install, and give at least two supported examples: Wi-Fi, power, sufficient storage, restart, or automatic updates being disabled.",
+    "supporting_passage_ids": [
+      "reviewed-020"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-020"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-06-q2",
+    "claim_id": "claim-06",
+    "concept_group": "software_updates",
+    "split": "test",
+    "question": "Why might an automatically updating device remain unpatched? Name at least two installation requirements.",
+    "answerable": true,
+    "reference_statement": "Automatic updates can require conditions or user action.",
+    "required_answer_points": [
+      "Automatic updating does not guarantee installation.",
+      "Conditions can include power, Wi-Fi, storage, or a restart."
+    ],
+    "completion_clarification": "State that automatic updates may not install, and give at least two supported examples: Wi-Fi, power, sufficient storage, restart, or automatic updates being disabled.",
+    "supporting_passage_ids": [
+      "reviewed-020"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-020"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-06-q3",
+    "claim_id": "claim-06",
+    "concept_group": "software_updates",
+    "split": "test",
+    "question": "Does enabling automatic updates guarantee installation? Explain with at least two possible prerequisites.",
+    "answerable": true,
+    "reference_statement": "Automatic updates can require conditions or user action.",
+    "required_answer_points": [
+      "Automatic updating does not guarantee installation.",
+      "Conditions can include power, Wi-Fi, storage, or a restart."
+    ],
+    "completion_clarification": "State that automatic updates may not install, and give at least two supported examples: Wi-Fi, power, sufficient storage, restart, or automatic updates being disabled.",
+    "supporting_passage_ids": [
+      "reviewed-020"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-020"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-08-q1",
+    "claim_id": "claim-08",
+    "concept_group": "least_privilege",
+    "split": "test",
+    "question": "What does least privilege require for users and processes acting on their behalf?",
+    "answerable": true,
+    "reference_statement": "Least privilege limits access to what assigned tasks require.",
+    "required_answer_points": [
+      "Grant only the privileges needed for assigned tasks.",
+      "The principle applies to users or processes acting for them."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-025"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-025"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-006"
+    ]
+  },
+  {
+    "question_id": "claim-08-q2",
+    "claim_id": "claim-08",
+    "concept_group": "least_privilege",
+    "split": "test",
+    "question": "How should access privileges be limited under least privilege, and to whom does that principle apply?",
+    "answerable": true,
+    "reference_statement": "Least privilege limits access to what assigned tasks require.",
+    "required_answer_points": [
+      "Grant only the privileges needed for assigned tasks.",
+      "The principle applies to users or processes acting for them."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-025"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-025"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-006"
+    ]
+  },
+  {
+    "question_id": "claim-08-q3",
+    "claim_id": "claim-08",
+    "concept_group": "least_privilege",
+    "split": "test",
+    "question": "Explain the minimum-access rule of least privilege for both people and their processes.",
+    "answerable": true,
+    "reference_statement": "Least privilege limits access to what assigned tasks require.",
+    "required_answer_points": [
+      "Grant only the privileges needed for assigned tasks.",
+      "The principle applies to users or processes acting for them."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-025"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-025"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-006"
+    ]
+  },
+  {
+    "question_id": "claim-09-q1",
+    "claim_id": "claim-09",
+    "concept_group": "least_privilege",
+    "split": "test",
+    "question": "When should access be removed, including when an employee leaves?",
+    "answerable": true,
+    "reference_statement": "Access should be removed when needs change or employees leave.",
+    "required_answer_points": [
+      "Remove access when it is no longer needed.",
+      "Employee departure is one reason for removing access."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-004",
+      "supplement-006"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-004"
+      ],
+      [
+        "supplement-006"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-09-q2",
+    "claim_id": "claim-09",
+    "concept_group": "least_privilege",
+    "split": "test",
+    "question": "How should permissions change when access is no longer needed or employment ends?",
+    "answerable": true,
+    "reference_statement": "Access should be removed when needs change or employees leave.",
+    "required_answer_points": [
+      "Remove access when it is no longer needed.",
+      "Employee departure is one reason for removing access."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-004",
+      "supplement-006"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-004"
+      ],
+      [
+        "supplement-006"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-09-q3",
+    "claim_id": "claim-09",
+    "concept_group": "least_privilege",
+    "split": "test",
+    "question": "What should happen to access rights after job needs change or a staff member departs?",
+    "answerable": true,
+    "reference_statement": "Access should be removed when needs change or employees leave.",
+    "required_answer_points": [
+      "Remove access when it is no longer needed.",
+      "Employee departure is one reason for removing access."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-004",
+      "supplement-006"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-004"
+      ],
+      [
+        "supplement-006"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-11-q1",
+    "claim_id": "claim-11",
+    "concept_group": "backup_recovery",
+    "split": "test",
+    "question": "What backup protections and recovery tests does the guide recommend for ransomware preparation?",
+    "answerable": true,
+    "reference_statement": "Ransomware preparation includes offline backups and recovery tests.",
+    "required_answer_points": [
+      "Maintain offline, encrypted backups of critical data.",
+      "Regularly test backup availability and integrity."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "joint-recovery-001"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "joint-recovery-001"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-11-q2",
+    "claim_id": "claim-11",
+    "concept_group": "backup_recovery",
+    "split": "test",
+    "question": "How should critical-data backups be protected and tested before a ransomware incident?",
+    "answerable": true,
+    "reference_statement": "Ransomware preparation includes offline backups and recovery tests.",
+    "required_answer_points": [
+      "Maintain offline, encrypted backups of critical data.",
+      "Regularly test backup availability and integrity."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "joint-recovery-001"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "joint-recovery-001"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-11-q3",
+    "claim_id": "claim-11",
+    "concept_group": "backup_recovery",
+    "split": "test",
+    "question": "Describe the offline, encryption, and testing practices recommended for ransomware backups.",
+    "answerable": true,
+    "reference_statement": "Ransomware preparation includes offline backups and recovery tests.",
+    "required_answer_points": [
+      "Maintain offline, encrypted backups of critical data.",
+      "Regularly test backup availability and integrity."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "joint-recovery-001"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "joint-recovery-001"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-12-q1",
+    "claim_id": "claim-12",
+    "concept_group": "backup_recovery",
+    "split": "test",
+    "question": "Why might automated cloud backup be insufficient when ransomware encrypts local files?",
+    "answerable": true,
+    "reference_statement": "Cloud synchronization can propagate ransomware-encrypted files.",
+    "required_answer_points": [
+      "Encrypted local files may synchronize to the cloud.",
+      "This can overwrite unaffected cloud data.",
+      "Automatic cloud backup alone may therefore be insufficient."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "joint-recovery-003"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "joint-recovery-003"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-12-q2",
+    "claim_id": "claim-12",
+    "concept_group": "backup_recovery",
+    "split": "test",
+    "question": "How can synchronization of ransomware-encrypted files affect previously unaffected cloud data?",
+    "answerable": true,
+    "reference_statement": "Cloud synchronization can propagate ransomware-encrypted files.",
+    "required_answer_points": [
+      "Encrypted local files may synchronize to the cloud.",
+      "This can overwrite unaffected cloud data.",
+      "Automatic cloud backup alone may therefore be insufficient."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "joint-recovery-003"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "joint-recovery-003"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "claim-12-q3",
+    "claim_id": "claim-12",
+    "concept_group": "backup_recovery",
+    "split": "test",
+    "question": "Explain how cloud synchronization can spread the impact of local file encryption.",
+    "answerable": true,
+    "reference_statement": "Cloud synchronization can propagate ransomware-encrypted files.",
+    "required_answer_points": [
+      "Encrypted local files may synchronize to the cloud.",
+      "This can overwrite unaffected cloud data.",
+      "Automatic cloud backup alone may therefore be insufficient."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "joint-recovery-003"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "joint-recovery-003"
+      ]
+    ],
+    "partial_supporting_passage_ids": []
+  },
+  {
+    "question_id": "abstain-05",
+    "claim_id": null,
+    "concept_group": "password_tools",
+    "split": "test",
+    "question": "Which specific password-manager product does the supplied evidence recommend purchasing?",
+    "answerable": false,
+    "reference_response": "The supplied evidence does not contain the requested detail.",
+    "missing_information_reason": "The selected passages explain password managers but name no recommended product to purchase.",
+    "supporting_passage_ids": [],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "review_status": "assistant_reviewed_against_selected_corpus",
+    "sufficient_evidence_options": [],
+    "partial_supporting_passage_ids": [],
+    "answerability_review": "Original absence assessment retained after reviewing the eight supplementary passages; no change found."
+  },
+  {
+    "question_id": "abstain-06",
+    "claim_id": null,
+    "concept_group": "password_tools",
+    "split": "test",
+    "question": "What exact sequence of recovery steps does the supplied evidence prescribe after losing a device containing passkeys?",
+    "answerable": false,
+    "reference_response": "The supplied evidence does not contain the requested detail.",
+    "missing_information_reason": "The selected passkey passage explains their operation but provides no lost-device recovery procedure.",
+    "supporting_passage_ids": [],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "review_status": "assistant_reviewed_against_selected_corpus",
+    "sufficient_evidence_options": [],
+    "partial_supporting_passage_ids": [],
+    "answerability_review": "Original absence assessment retained after reviewing the eight supplementary passages; no change found."
+  },
+  {
+    "question_id": "abstain-07",
+    "claim_id": null,
+    "concept_group": "software_updates",
+    "split": "test",
+    "question": "What exact operating-system version number must a device run to comply with the supplied update guidance?",
+    "answerable": false,
+    "reference_response": "The supplied evidence does not contain the requested detail.",
+    "missing_information_reason": "The passages recommend supported, updated software but do not prescribe a specific operating-system version number.",
+    "supporting_passage_ids": [],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "review_status": "assistant_reviewed_against_selected_corpus",
+    "sufficient_evidence_options": [],
+    "partial_supporting_passage_ids": [],
+    "answerability_review": "Original absence assessment retained after reviewing the eight supplementary passages; no change found."
+  },
+  {
+    "question_id": "abstain-08",
+    "claim_id": null,
+    "concept_group": "software_updates",
+    "split": "test",
+    "question": "Which specific CVE identifier is fixed by the patches discussed in the supplied evidence?",
+    "answerable": false,
+    "reference_response": "The supplied evidence does not contain the requested detail.",
+    "missing_information_reason": "The selected update guidance discusses vulnerabilities generally without identifying a specific CVE.",
+    "supporting_passage_ids": [],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "review_status": "assistant_reviewed_against_selected_corpus",
+    "sufficient_evidence_options": [],
+    "partial_supporting_passage_ids": [],
+    "answerability_review": "Original absence assessment retained after reviewing the eight supplementary passages; no change found."
+  },
+  {
+    "question_id": "abstain-09",
+    "claim_id": null,
+    "concept_group": "least_privilege",
+    "split": "test",
+    "question": "What exact database permission list should be assigned to an organisation's payroll clerk?",
+    "answerable": false,
+    "reference_response": "The supplied evidence does not contain the requested detail.",
+    "missing_information_reason": "The passages state least-privilege principles but provide no payroll-role database permission list.",
+    "supporting_passage_ids": [],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "review_status": "assistant_reviewed_against_selected_corpus",
+    "sufficient_evidence_options": [],
+    "partial_supporting_passage_ids": [],
+    "answerability_review": "Original absence assessment retained after reviewing the eight supplementary passages; no change found."
+  },
+  {
+    "question_id": "abstain-10",
+    "claim_id": null,
+    "concept_group": "least_privilege",
+    "split": "test",
+    "question": "Exactly how many minutes after an employee leaves must all access permissions be revoked?",
+    "answerable": false,
+    "reference_response": "The supplied evidence does not contain the requested detail.",
+    "missing_information_reason": "The passages advise removing access when employees leave but give no numerical revocation deadline.",
+    "supporting_passage_ids": [],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "review_status": "assistant_reviewed_against_selected_corpus",
+    "sufficient_evidence_options": [],
+    "partial_supporting_passage_ids": [],
+    "answerability_review": "Original absence assessment retained after reviewing the eight supplementary passages; no change found."
+  },
+  {
+    "question_id": "abstain-11",
+    "claim_id": null,
+    "concept_group": "backup_recovery",
+    "split": "test",
+    "question": "Exactly how many hours should separate ransomware backups according to the supplied evidence?",
+    "answerable": false,
+    "reference_response": "The supplied evidence does not contain the requested detail.",
+    "missing_information_reason": "The selected passages describe backup protections and testing but specify no hourly backup interval.",
+    "supporting_passage_ids": [],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "review_status": "assistant_reviewed_against_selected_corpus",
+    "sufficient_evidence_options": [],
+    "partial_supporting_passage_ids": [],
+    "answerability_review": "Original absence assessment retained after reviewing the eight supplementary passages; no change found."
+  },
+  {
+    "question_id": "abstain-12",
+    "claim_id": null,
+    "concept_group": "backup_recovery",
+    "split": "test",
+    "question": "Which named decryption tool should be used to recover ransomware-encrypted files according to the supplied evidence?",
+    "answerable": false,
+    "reference_response": "The supplied evidence does not contain the requested detail.",
+    "missing_information_reason": "The selected recovery passages name no ransomware decryption tool.",
+    "supporting_passage_ids": [],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "review_status": "assistant_reviewed_against_selected_corpus",
+    "sufficient_evidence_options": [],
+    "partial_supporting_passage_ids": [],
+    "answerability_review": "Original absence assessment retained after reviewing the eight supplementary passages; no change found."
+  }
+]

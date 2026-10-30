@@ -1,0 +1,387 @@
+[
+  {
+    "question_id": "claim-01-q1",
+    "claim_id": "claim-01",
+    "concept_group": "mfa",
+    "split": "development",
+    "question": "What makes authentication multi-factor, and what are its categories?",
+    "answerable": true,
+    "reference_statement": "MFA combines at least two distinct authentication categories.",
+    "required_answer_points": [
+      "At least two distinct categories are required.",
+      "Categories include knowledge, possession, and biometrics."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-001"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-001"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-001"
+    ]
+  },
+  {
+    "question_id": "claim-01-q2",
+    "claim_id": "claim-01",
+    "concept_group": "mfa",
+    "split": "development",
+    "question": "How many distinct authentication categories does MFA require, and which categories qualify?",
+    "answerable": true,
+    "reference_statement": "MFA combines at least two distinct authentication categories.",
+    "required_answer_points": [
+      "At least two distinct categories are required.",
+      "Categories include knowledge, possession, and biometrics."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-001"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-001"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-001"
+    ]
+  },
+  {
+    "question_id": "claim-01-q3",
+    "claim_id": "claim-01",
+    "concept_group": "mfa",
+    "split": "development",
+    "question": "Explain the category requirement for MFA and name the possible categories.",
+    "answerable": true,
+    "reference_statement": "MFA combines at least two distinct authentication categories.",
+    "required_answer_points": [
+      "At least two distinct categories are required.",
+      "Categories include knowledge, possession, and biometrics."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-001"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-001"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-001"
+    ]
+  },
+  {
+    "question_id": "claim-04-q1",
+    "claim_id": "claim-04",
+    "concept_group": "mfa",
+    "split": "development",
+    "question": "Are all MFA methods phishing-resistant? Explain using SMS codes.",
+    "answerable": true,
+    "reference_statement": "Some MFA methods, including SMS codes, remain phishable.",
+    "required_answer_points": [
+      "MFA methods differ in phishing resistance.",
+      "SMS codes can still be phished."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-003"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-003"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-002",
+      "supplement-003"
+    ]
+  },
+  {
+    "question_id": "claim-04-q2",
+    "claim_id": "claim-04",
+    "concept_group": "mfa",
+    "split": "development",
+    "question": "Does enabling MFA guarantee phishing resistance, particularly when SMS codes are used?",
+    "answerable": true,
+    "reference_statement": "Some MFA methods, including SMS codes, remain phishable.",
+    "required_answer_points": [
+      "MFA methods differ in phishing resistance.",
+      "SMS codes can still be phished."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-003"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-003"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-002",
+      "supplement-003"
+    ]
+  },
+  {
+    "question_id": "claim-04-q3",
+    "claim_id": "claim-04",
+    "concept_group": "mfa",
+    "split": "development",
+    "question": "How does phishing resistance vary among MFA methods, including SMS authentication?",
+    "answerable": true,
+    "reference_statement": "Some MFA methods, including SMS codes, remain phishable.",
+    "required_answer_points": [
+      "MFA methods differ in phishing resistance.",
+      "SMS codes can still be phished."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-003"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-003"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-002",
+      "supplement-003"
+    ]
+  },
+  {
+    "question_id": "claim-07-q1",
+    "claim_id": "claim-07",
+    "concept_group": "phishing",
+    "split": "development",
+    "question": "Why is an urgent request suspicious, and how should you verify it?",
+    "answerable": true,
+    "reference_statement": "Urgent requests should be checked through known contact details.",
+    "required_answer_points": [
+      "Pressure to act immediately is a phishing warning sign.",
+      "Verify requests using independently known contact details."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-011"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-011"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-004"
+    ]
+  },
+  {
+    "question_id": "claim-07-q2",
+    "claim_id": "claim-07",
+    "concept_group": "phishing",
+    "split": "development",
+    "question": "How should you respond to a message pressuring immediate action, and which contact details should you use to check it?",
+    "answerable": true,
+    "reference_statement": "Urgent requests should be checked through known contact details.",
+    "required_answer_points": [
+      "Pressure to act immediately is a phishing warning sign.",
+      "Verify requests using independently known contact details."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-011"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-011"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-004"
+    ]
+  },
+  {
+    "question_id": "claim-07-q3",
+    "claim_id": "claim-07",
+    "concept_group": "phishing",
+    "split": "development",
+    "question": "Explain the phishing risk of urgent messages and how to verify the request independently.",
+    "answerable": true,
+    "reference_statement": "Urgent requests should be checked through known contact details.",
+    "required_answer_points": [
+      "Pressure to act immediately is a phishing warning sign.",
+      "Verify requests using independently known contact details."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-011"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-011"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-004"
+    ]
+  },
+  {
+    "question_id": "claim-10-q1",
+    "claim_id": "claim-10",
+    "concept_group": "phishing",
+    "split": "development",
+    "question": "After a phishing compromise, what password and reporting actions should be taken, including if a financial account was affected?",
+    "answerable": true,
+    "reference_statement": "Phishing compromise calls for password changes and reporting.",
+    "required_answer_points": [
+      "Change affected passwords.",
+      "Notify appropriate incident response personnel.",
+      "Contact the financial institution if its account was affected."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-014"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-014"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-007",
+      "supplement-008"
+    ]
+  },
+  {
+    "question_id": "claim-10-q2",
+    "claim_id": "claim-10",
+    "concept_group": "phishing",
+    "split": "development",
+    "question": "What should a phishing victim do about affected passwords, incident reporting, and a compromised financial account?",
+    "answerable": true,
+    "reference_statement": "Phishing compromise calls for password changes and reporting.",
+    "required_answer_points": [
+      "Change affected passwords.",
+      "Notify appropriate incident response personnel.",
+      "Contact the financial institution if its account was affected."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-014"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-014"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-007",
+      "supplement-008"
+    ]
+  },
+  {
+    "question_id": "claim-10-q3",
+    "claim_id": "claim-10",
+    "concept_group": "phishing",
+    "split": "development",
+    "question": "Describe the password changes and notifications needed after phishing, including when a bank should be contacted.",
+    "answerable": true,
+    "reference_statement": "Phishing compromise calls for password changes and reporting.",
+    "required_answer_points": [
+      "Change affected passwords.",
+      "Notify appropriate incident response personnel.",
+      "Contact the financial institution if its account was affected."
+    ],
+    "completion_clarification": null,
+    "supporting_passage_ids": [
+      "reviewed-014"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-014"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-007",
+      "supplement-008"
+    ]
+  },
+  {
+    "question_id": "abstain-01",
+    "claim_id": null,
+    "concept_group": "mfa",
+    "split": "development",
+    "question": "Exactly how many seconds does an SMS authentication code remain valid according to the supplied evidence?",
+    "answerable": false,
+    "reference_response": "The supplied evidence does not contain the requested detail.",
+    "missing_information_reason": "The selected passages do not specify an SMS-code validity period.",
+    "supporting_passage_ids": [],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "review_status": "assistant_reviewed_against_selected_corpus",
+    "sufficient_evidence_options": [],
+    "partial_supporting_passage_ids": [],
+    "answerability_review": "Original absence assessment retained after reviewing the eight supplementary passages; no change found."
+  },
+  {
+    "question_id": "abstain-02",
+    "claim_id": null,
+    "concept_group": "mfa",
+    "split": "development",
+    "question": "Which specific manufacturer and model of security key does the supplied evidence recommend purchasing?",
+    "answerable": false,
+    "reference_response": "The supplied evidence does not contain the requested detail.",
+    "missing_information_reason": "The passages discuss security keys and FIDO/WebAuthn but recommend no specific manufacturer and model.",
+    "supporting_passage_ids": [],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "review_status": "assistant_reviewed_against_selected_corpus",
+    "sufficient_evidence_options": [],
+    "partial_supporting_passage_ids": [],
+    "answerability_review": "Original absence assessment retained after reviewing the eight supplementary passages; no change found."
+  },
+  {
+    "question_id": "abstain-03",
+    "claim_id": null,
+    "concept_group": "phishing",
+    "split": "development",
+    "question": "What exact email address should employees use to report phishing to their company's incident response team?",
+    "answerable": false,
+    "reference_response": "The supplied evidence does not contain the requested detail.",
+    "missing_information_reason": "The passages advise reporting but supply no company-specific incident response email address.",
+    "supporting_passage_ids": [],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "review_status": "assistant_reviewed_against_selected_corpus",
+    "sufficient_evidence_options": [],
+    "partial_supporting_passage_ids": [],
+    "answerability_review": "Original absence assessment retained after reviewing the eight supplementary passages; no change found."
+  },
+  {
+    "question_id": "abstain-04",
+    "claim_id": null,
+    "concept_group": "phishing",
+    "split": "development",
+    "question": "Within exactly how many minutes must an employee notify their company's response team after a phishing compromise?",
+    "answerable": false,
+    "reference_response": "The supplied evidence does not contain the requested detail.",
+    "missing_information_reason": "The passages specify reporting actions but no numerical company-reporting deadline.",
+    "supporting_passage_ids": [],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "review_status": "assistant_reviewed_against_selected_corpus",
+    "sufficient_evidence_options": [],
+    "partial_supporting_passage_ids": [],
+    "answerability_review": "Original absence assessment retained after reviewing the eight supplementary passages; no change found."
+  }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "claim_id": "claim-01",
+    "concept_group": "mfa",
+    "split": "development",
+    "statement": "MFA combines at least two distinct authentication categories.",
+    "supporting_passage_ids": [
+      "reviewed-001"
+    ],
+    "required_answer_points": [
+      "At least two distinct categories are required.",
+      "Categories include knowledge, possession, and biometrics."
+    ],
+    "supporting_families": [
+      "nist.gov"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "status": "v2_evidence_mapping_draft",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-001"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-001"
+    ],
+    "independent_corroboration_verified": false
+  },
+  {
+    "claim_id": "claim-02",
+    "concept_group": "password_tools",
+    "split": "test",
+    "statement": "Password managers generate and securely store passwords.",
+    "supporting_passage_ids": [
+      "reviewed-009"
+    ],
+    "required_answer_points": [
+      "Password managers can generate passwords.",
+      "They store passwords so users need not memorize each one."
+    ],
+    "supporting_families": [
+      "nist.gov"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "status": "v2_evidence_mapping_draft",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-009"
+      ]
+    ],
+    "partial_supporting_passage_ids": [],
+    "independent_corroboration_verified": false
+  },
+  {
+    "claim_id": "claim-03",
+    "concept_group": "password_tools",
+    "split": "test",
+    "statement": "Passkeys use a private digital key and resist phishing.",
+    "supporting_passage_ids": [
+      "reviewed-008"
+    ],
+    "required_answer_points": [
+      "A private digital key is held on a device.",
+      "Passkeys resist phishing unlike ordinary passwords."
+    ],
+    "supporting_families": [
+      "nist.gov"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "status": "v2_evidence_mapping_draft",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-008"
+      ]
+    ],
+    "partial_supporting_passage_ids": [],
+    "independent_corroboration_verified": false
+  },
+  {
+    "claim_id": "claim-04",
+    "concept_group": "mfa",
+    "split": "development",
+    "statement": "Some MFA methods, including SMS codes, remain phishable.",
+    "supporting_passage_ids": [
+      "reviewed-003"
+    ],
+    "required_answer_points": [
+      "MFA methods differ in phishing resistance.",
+      "SMS codes can still be phished."
+    ],
+    "supporting_families": [
+      "nist.gov"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "status": "v2_evidence_mapping_draft",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-003"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-002",
+      "supplement-003"
+    ],
+    "independent_corroboration_verified": false
+  },
+  {
+    "claim_id": "claim-05",
+    "concept_group": "software_updates",
+    "split": "test",
+    "statement": "Security patches address known software vulnerabilities.",
+    "supporting_passage_ids": [
+      "reviewed-015",
+      "reviewed-016",
+      "supplement-005"
+    ],
+    "required_answer_points": [
+      "Patches fix known flaws or security holes.",
+      "Installing them reduces exposure to exploitation."
+    ],
+    "supporting_families": [
+      "ncsc.gov.uk"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "status": "v2_evidence_mapping_draft",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-015",
+        "reviewed-016"
+      ],
+      [
+        "supplement-005"
+      ]
+    ],
+    "partial_supporting_passage_ids": [],
+    "independent_corroboration_verified": false
+  },
+  {
+    "claim_id": "claim-06",
+    "concept_group": "software_updates",
+    "split": "test",
+    "statement": "Automatic updates can require conditions or user action.",
+    "supporting_passage_ids": [
+      "reviewed-020"
+    ],
+    "required_answer_points": [
+      "Automatic updating does not guarantee installation.",
+      "Conditions can include power, Wi-Fi, storage, or a restart."
+    ],
+    "supporting_families": [
+      "ncsc.gov.uk"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "status": "v2_evidence_mapping_draft",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-020"
+      ]
+    ],
+    "partial_supporting_passage_ids": [],
+    "independent_corroboration_verified": false
+  },
+  {
+    "claim_id": "claim-07",
+    "concept_group": "phishing",
+    "split": "development",
+    "statement": "Urgent requests should be checked through known contact details.",
+    "supporting_passage_ids": [
+      "reviewed-011"
+    ],
+    "required_answer_points": [
+      "Pressure to act immediately is a phishing warning sign.",
+      "Verify requests using independently known contact details."
+    ],
+    "supporting_families": [
+      "nist.gov"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "status": "v2_evidence_mapping_draft",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-011"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-004"
+    ],
+    "independent_corroboration_verified": false
+  },
+  {
+    "claim_id": "claim-08",
+    "concept_group": "least_privilege",
+    "split": "test",
+    "statement": "Least privilege limits access to what assigned tasks require.",
+    "supporting_passage_ids": [
+      "reviewed-025"
+    ],
+    "required_answer_points": [
+      "Grant only the privileges needed for assigned tasks.",
+      "The principle applies to users or processes acting for them."
+    ],
+    "supporting_families": [
+      "nist.gov"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "status": "v2_evidence_mapping_draft",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-025"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-006"
+    ],
+    "independent_corroboration_verified": false
+  },
+  {
+    "claim_id": "claim-09",
+    "concept_group": "least_privilege",
+    "split": "test",
+    "statement": "Access should be removed when needs change or employees leave.",
+    "supporting_passage_ids": [
+      "reviewed-004",
+      "supplement-006"
+    ],
+    "required_answer_points": [
+      "Remove access when it is no longer needed.",
+      "Employee departure is one reason for removing access."
+    ],
+    "supporting_families": [
+      "ncsc.gov.uk",
+      "nist.gov"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "status": "v2_evidence_mapping_draft",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-004"
+      ],
+      [
+        "supplement-006"
+      ]
+    ],
+    "partial_supporting_passage_ids": [],
+    "independent_corroboration_verified": false
+  },
+  {
+    "claim_id": "claim-10",
+    "concept_group": "phishing",
+    "split": "development",
+    "statement": "Phishing compromise calls for password changes and reporting.",
+    "supporting_passage_ids": [
+      "reviewed-014"
+    ],
+    "required_answer_points": [
+      "Change affected passwords.",
+      "Notify appropriate incident response personnel.",
+      "Contact the financial institution if its account was affected."
+    ],
+    "supporting_families": [
+      "nist.gov"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "status": "v2_evidence_mapping_draft",
+    "sufficient_evidence_options": [
+      [
+        "reviewed-014"
+      ]
+    ],
+    "partial_supporting_passage_ids": [
+      "supplement-007",
+      "supplement-008"
+    ],
+    "independent_corroboration_verified": false
+  },
+  {
+    "claim_id": "claim-11",
+    "concept_group": "backup_recovery",
+    "split": "test",
+    "statement": "Ransomware preparation includes offline backups and recovery tests.",
+    "supporting_passage_ids": [
+      "joint-recovery-001"
+    ],
+    "required_answer_points": [
+      "Maintain offline, encrypted backups of critical data.",
+      "Regularly test backup availability and integrity."
+    ],
+    "supporting_families": [
+      "joint-stopransomware-guidance"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "status": "v2_evidence_mapping_draft",
+    "sufficient_evidence_options": [
+      [
+        "joint-recovery-001"
+      ]
+    ],
+    "partial_supporting_passage_ids": [],
+    "independent_corroboration_verified": false
+  },
+  {
+    "claim_id": "claim-12",
+    "concept_group": "backup_recovery",
+    "split": "test",
+    "statement": "Cloud synchronization can propagate ransomware-encrypted files.",
+    "supporting_passage_ids": [
+      "joint-recovery-003"
+    ],
+    "required_answer_points": [
+      "Encrypted local files may synchronize to the cloud.",
+      "This can overwrite unaffected cloud data.",
+      "Automatic cloud backup alone may therefore be insufficient."
+    ],
+    "supporting_families": [
+      "joint-stopransomware-guidance"
+    ],
+    "corpus_sha256": "3d79912c5233d7c273a19576416e910627bf640a7759c937140d07f8c2e09dd0",
+    "status": "v2_evidence_mapping_draft",
+    "sufficient_evidence_options": [
+      [
+        "joint-recovery-003"
+      ]
+    ],
+    "partial_supporting_passage_ids": [],
+    "independent_corroboration_verified": false
+  }
+]
